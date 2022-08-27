@@ -1,0 +1,131 @@
+.fv {
+  height: 100vh;
+}
+.fv::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #222;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+.kvWrapper {
+  height: 86.5%;
+  width: 76.4%;
+  background-image: url(../../../Images/kv-img.jpg);
+  background-size: cover;
+  background-position: center 0;
+  position: relative;
+}
+.copyWrapper {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  color: #fff;
+}
+.copyJp {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+.copyCompany {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.mainCopy {
+  font-size: 7.2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ----------------------- */
+/* section_about
+  /* ----------------------- */
+.section-wrapper:first-of-type {
+  padding-top: 120px;
+  position: relative;
+}
+.section-wrapper:first-of-type::after {
+  content: "";
+  width: 100vw;
+  height: 160px;
+  display: block;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.about-bg {
+  background-image: url(../../../images/about-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 110px 0 110px 50px;
+}
+.about-content {
+  max-width: 590px;
+  padding: 50px 30px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* ----------------------- */
+/* section_works
+  /* ----------------------- */
+.l-section-wrapper {
+  padding: 60px 0;
+}
+.l-content-wrapper {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.s-section-wrapper {
+  width: 47.3%;
+}
+.section-img-wrapper {
+  margin-bottom: 30px;
+}
+
+/* ----------------------- */
+/* section_topics
+  /* ----------------------- */
+.topics-list {
+  max-width: 700px;
+}
+.topics-item {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+.topics-date {
+  color: #cecece;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.topics-title {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.ml-auto {
+  margin-left: auto;
+}
+
+/* ----------------------- */
+/* section_contact
+  /* ----------------------- */
+.section-wrapper:last-of-type {
+  padding-bottom: 120px;
+}
+.contact-content {
+  width: 40%;
+}
+.contact-img-wrapper {
+  width: 52.7%;
+}
