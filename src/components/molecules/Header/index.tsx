@@ -12,7 +12,10 @@ export const Header = () => {
           <ul className={styles.navList}>
             <li className={styles.navItem}>
               <Link href="./">
-                <img src="./images/simbol-logo.svg" alt="DIGSMILE INC." />
+                <img
+                  src="../../../Images/simbol-logo.svg"
+                  alt="DIGSMILE INC."
+                />
               </Link>
             </li>
             <li className={styles.navItem}>
